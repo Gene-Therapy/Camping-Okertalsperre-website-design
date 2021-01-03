@@ -18,16 +18,20 @@ body{
     color: #333;
 }
 header{
+    overflow: hidden;
+    top: 0;
     z-index: 999;
     position: fixed;
     width: 100vw;
-    display: flex;
+    height: 135px;
     flex-direction: column;
     align-items: center;
 }
 /*top banner*/
 .top-banner{
+    top: 0;
     display: flex;
+    position: fixed;
     justify-content: space-evenly;
     align-items: center;
     background-color:#F7CC2E;
@@ -112,7 +116,12 @@ header{
 }
 
 /*Nav Bar*/
+.navigation-container{
+    border: black 1px solid;
+}
 .navigation-bar{
+    top: 90px;
+    position: fixed;
     display: flex;
     padding: 3px;
     grid-template-columns: 1fr;

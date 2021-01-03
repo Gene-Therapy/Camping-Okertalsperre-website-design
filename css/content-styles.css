@@ -1,5 +1,7 @@
 /*index section*/
 section{
+    margin-top: 90px;
+    padding: 0;
     min-height: 100%;
 }
 .bg-wrapper{
@@ -35,3 +37,109 @@ section{
     padding: 10px 10px 10px 30px;
 }
 /*Prices*/
+.top-area{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+.top-text{
+    margin-top: 100px;
+    padding-top: 50px;
+    max-width: 580px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.top-text h2{
+    color: teal;
+    padding-bottom: 20px;
+    font-size: x-large;
+    text-align: center;
+}
+.top-text span{
+    padding: 10px;
+    font-size: large;
+    color: red;
+    font-weight: 900;
+}
+.top-text a{
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.extra-price-info{
+    padding: 20px;
+    font-size: 14px;
+    font-style: italic;
+    justify-content: center;
+    text-align: center;
+}
+.Table-container{
+    padding-top: 20px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+.tg{
+    border-collapse:collapse;
+    border-spacing:0;
+}
+.tg td{
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    overflow:hidden;
+    padding:6px 10px;
+    word-break:normal;
+}
+.tg th{
+    border-color:black;
+    border-style:solid;
+    border-width:1px;
+    font-weight:normal;
+    overflow:hidden;
+    padding:6px 10px;
+    word-break:normal;
+}
+.tg .tg-oe15{
+    background-color:transparent;
+    border-color:transparent;
+    text-align:left;vertical-align:top;
+}
+.tg .tg-yicz{
+    background-color:transparent;
+    border-color:transparent;
+    font-family:Impact, Charcoal, sans-serif !important;
+    font-size: 20px;
+    text-align:left;
+    text-decoration:underline;
+    vertical-align:top
+}
+.tg .tg-e5xa{
+    background-color:transparent;
+    border-color:transparent;
+    font-family:Impact, Charcoal, sans-serif !important;
+    text-align:right;
+    vertical-align:top;
+}
+.tg .tg-oe16{
+    background-color:transparent;
+    border-color:transparent;
+    text-align:left;vertical-align:top;
+    font-size: 14px;
+    font-style: italic;
+    justify-content: center;
+    text-align: center;
+}
+.services-list-container{
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+/*Gallery*/
+.Gallery-container{
+    margin-top: 135px;
+    text-align: center;
+    padding-top: 20px;
+}
