@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome Page</title>
+    <title>Camping Okertalsperre | Gallery</title>
     <link rel="stylesheet" href="css/main-styles.css">
     <link rel="stylesheet" href="css/content-styles.css">
     <link rel="stylesheet"href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"crossorigin="anonymous">
@@ -66,8 +66,30 @@
     <section>
         <div class="Gallery-container">
             <h1>Gallery</h1>
+            <div class="video-area">
+                <video src="video_images/Camping Okertalsperre.mp4" width="40%" controls></video>
+                <div class="div-iframe">
+                    <iframe width="560" height="340" src="https://www.youtube.com/embed/JYyDeQi-SZI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    <span>video created by camp visitors:</span>
+                    <p>It was one of those days the weather was perfect on Campingsite Okertalsperre. The breakfast tables on the different sites were ready to jump on and some even were decorated with flowers. Sports enthusiasts checkt and made there equipment in order because in the Okervalley the possibilitys for wildwater canoeing, climbing and beautifull hikes are breathtaking and adventures. In the afternoon some people built rafts and played on the Okertalsperre to get there refreshment. Others just stayed on the campingsite to relax and enjoy the day after a year of hard work. At the end of the day most people enjoyed a barbecue after a sunny day in the Harz mountains. And the air you breath here makes hungry.
+                        Even our cat was after this day thirsty but you don´t have to be affraid there flows enough water in to the Okertalsperre.</p>
+                </div>
+            </div>
+        </div>	
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="./video_images/img-5.jpg" id="lastClone" alt="">
+                <img src="./video_images/img-1.jpg" alt="">
+                <img src="./video_images/img-2.jpg" alt="">
+                <img src="./video_images/img-3.jpg" alt="">
+                <img src="./video_images/img-4.jpg" alt="">
+                <img src="./video_images/img-5.jpg" alt="">
+                <img src="./video_images/img-1.jpg" id="firstClone" alt="">
+            </div>
         </div>
-    </section>
+        <button id="prevBtn">Prev</button>
+        <button id="nextBtn">Next</button>
+        </section>
     <footer>
         <div class="footer-content">
             <div class="contact-container">
@@ -98,5 +120,6 @@
             &copy; camping-okertalsperre.com     |   Designed by Roel Kroes <a href="Service-Terms.html" class="Final-links">Service Terms</a><a href="AGB.html" class="Final-links">Data Protection</a>
         </div>    
     </footer>
+    <script src="js/app.js"></script>
 </body>
 </html>
