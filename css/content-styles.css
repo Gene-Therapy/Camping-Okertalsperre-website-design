@@ -57,6 +57,7 @@ section{
     margin-top: 100px;
     padding-top: 50px;
     max-width: 580px;
+    min-width: 360px;
     display: block;
     justify-content: center;
     align-items: center;
@@ -302,4 +303,130 @@ section{
     justify-content: center;
     align-items: center;
     padding-bottom: 20px;
+}
+/*INFO*/
+.Camping_plan{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.Camping_plan img{
+    width: 100%;
+}
+.Brochure{
+    margin-top: 10px;
+    max-width: 960px;
+    text-align: center;
+    border: 2px solid black;
+    justify-content: center;
+}
+.tg .tg-0lax{
+    background-color:transparent;
+    border-color:transparent;
+    font-family:Impact, Charcoal, sans-serif !important;
+    text-align:right;
+    vertical-align: bottom;
+}
+.middle-area{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    position: relative;
+}
+.middle-text{
+    margin-top: 20px;
+    padding-top: 10px;
+    max-width: 580px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+.middle-text h2{
+    color: teal;
+    padding-bottom: 20px;
+    font-size: x-large;
+    text-align: center;
+}
+.middle-text span{
+    padding: 10px;
+    font-size: large;
+    color: red;
+    font-weight: 900;
+}
+.middle-text a{
+    text-align: justify;
+    padding-bottom: 20px;
+}
+.you-tube-video{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+/*Contact*/
+.contact-form{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+.container{
+    width: 600px;
+    background-color: whitesmoke;
+    padding: 30px;
+}
+.container p{
+    font-size: x-large;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.form-group{
+    margin-bottom: 1.5em;
+}
+.form-label{
+    font-size: 0.75em;
+    color: #555;
+    display: block;
+    opacity: 1;
+}
+.form-control{
+    box-shadow: none;
+    border-radius: 0;
+    border-color: #ccc;
+    border-style: none none solid none;
+    width: 100%;
+    font-size: 1.25em;
+}
+>.form-control::placeholder{
+    color: #aaa;
+}
+.form-control:focus{
+    box-shadow: none;
+    border-color: orange;
+    outline: none;
+}
+.submit-btn{
+    background: 0 0 #fff;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    color: #555;
+    font-size: 1em;
+    padding: 10px 50px;
+    text-transform: uppercase;
+}
+.submit-btn:hover{
+    border-color:orange;
+    color: orange;
+}
+textarea{
+    resize: none;
+}
+.maps{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
 }
